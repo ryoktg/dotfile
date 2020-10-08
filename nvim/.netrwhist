@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/ketsu.ryo/.config/nvim/plug-config'
+let g:netrw_dirhist_0='/Users/ketsu.ryo/.config/nvim'
+let g:netrw_dirhist_9='/Users/ketsu.ryo/.config/nvim/autoload'
+let g:netrw_dirhist_8='/Users/ketsu.ryo/.config/nvim'
+let g:netrw_dirhist_7='/Users/ketsu.ryo/.config/nvim/plug-config'
+let g:netrw_dirhist_6='/Users/ketsu.ryo/.config/nvim'
+let g:netrw_dirhist_5='/Users/ketsu.ryo/.config/nvim/autoload'
+let g:netrw_dirhist_4='/Users/ketsu.ryo/.config/nvim'
+let g:netrw_dirhist_3='/Users/ketsu.ryo/repos/user-auth/cmd/user-auth'
+let g:netrw_dirhist_2='/Users/ketsu.ryo/.config/nvim/plug-config'

@@ -1,0 +1,83 @@
+{
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": [
+        "go.mod"
+      ],
+      "trace.server": "verbose",
+      "filetypes": [
+        "go"
+      ]
+    },
+    "erlang": {
+      "command": "erlang_ls",
+      "rootPatterns": [
+        "rebar.config"
+      ],
+      "trace.server": "verbose",
+      "filetypes": [
+        "erlang"
+      ]
+    },
+    "javascript": {
+      "command": "typescript-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "rootPatterns": [
+        "package.json"
+      ],
+      "trace.server": "verbose",
+      "filetypes": [
+        "javascript"
+      ]
+    },
+    "typescript": {
+      "command": "typescript-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "rootPatterns": [
+        "package.json"
+      ],
+      "trace.server": "verbose",
+      "filetypes": [
+        "typescript"
+      ]
+    },
+    "python": {
+      "command": "pyls",
+      "trace.server": "verbose",
+      "filetypes": [
+        "python"
+      ]
+    },
+    "php": {
+      "command": "php",
+      "args": [
+        "/usr/local/Manual/php_lsp/vendor/bin/php-language-server.php"
+      ],
+      "trace.server": "verbose",
+      "filetypes": [
+        "php"
+      ]
+    },
+    "dart": {
+      "command": "dart",
+      "args": [
+        "/usr/local/Manual/flutter/current/bin/cache/dart-sdk/bin/snapshots/analysis_server.dart.snapshot",
+        "--lsp",
+        "--client-id",
+        "vim",
+        "--client-version",
+        "coc.nvim"
+      ],
+      "filetypes": [
+        "dart"
+      ],
+      "trace.server": "verbose"
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["go", "php", "dart"]
+}
